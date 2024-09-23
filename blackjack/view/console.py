@@ -62,7 +62,8 @@ class UIConsola:
             self.ejecutar_turno_de_la_casa()
 
     def ejecutar_turno_de_la_casa(self):
-        pass
+        print(" Este es el turno de la casa")
+        self.mostrar_manos(self.blackjack.cupier.mano, self.blackjack.jugador.mano)
 
     def pedir_apuesta(self):
         apuesta: int = int(input("¿Cuál es su apuesta?: "))
